@@ -1,0 +1,600 @@
+// !$*UTF8*$
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E7A30F0401425B7000000000 /* BotsFactory.m in Bots */ = {isa = PBXBuildFile; fileRef = 1DD70E29CF975D2A00000000 /* BotsFactory.m */; };
+		E7A30F043A5D0B7000000000 /* BotTextChatViewController.m in Bots */ = {isa = PBXBuildFile; fileRef = 1DD70E29E9712A3C00000000 /* BotTextChatViewController.m */; };
+		E7A30F04F8041E6800000000 /* AppDelegate.m in App */ = {isa = PBXBuildFile; fileRef = 1DD70E29BC0DBB9F00000000 /* AppDelegate.m */; };
+		E7A30F045866123300000000 /* Launch Screen.storyboard in App */ = {isa = PBXBuildFile; fileRef = 1DD70E2907496F8100000000 /* Launch Screen.storyboard */; };
+		E7A30F041D3ECB7300000000 /* DemoFeature.m in Demo */ = {isa = PBXBuildFile; fileRef = 1DD70E298000EB7700000000 /* DemoFeature.m */; };
+		E7A30F04221C978600000000 /* BotVoiceChatViewController.m in Bots */ = {isa = PBXBuildFile; fileRef = 1DD70E29C5A4B03C00000000 /* BotVoiceChatViewController.m */; };
+		E7A30F04B7D01EC900000000 /* BotOperationsViewController.m in Bots */ = {isa = PBXBuildFile; fileRef = 1DD70E296E29359E00000000 /* BotOperationsViewController.m */; };
+		E7A30F04D7246B5C00000000 /* Bot.m in Bots */ = {isa = PBXBuildFile; fileRef = 1DD70E296FA8662800000000 /* Bot.m */; };
+		E7A30F04F0C3D71B00000000 /* BotTextChat.storyboard in Bots */ = {isa = PBXBuildFile; fileRef = 1DD70E29D106455C00000000 /* BotTextChat.storyboard */; };
+		E7A30F043BAD23D900000001 /* JSQMessagesViewController.framework in  */ = {isa = PBXBuildFile; fileRef = 1DD70E296A7C129B00000000 /* JSQMessagesViewController.framework */; };
+		E7A30F043BAD23D900000000 /* JSQMessagesViewController.framework in  */ = {isa = PBXBuildFile; fileRef = 1DD70E296A7C129B00000000 /* JSQMessagesViewController.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy,  ); };};
+		E7A30F0439FFFED600000000 /* Images.xcassets in App */ = {isa = PBXBuildFile; fileRef = 1DD70E2983A8E61100000000 /* Images.xcassets */; };
+		E7A30F0492E0803000000000 /* BotsLandingViewController.m in Bots */ = {isa = PBXBuildFile; fileRef = 1DD70E295A9FFDAE00000000 /* BotsLandingViewController.m */; };
+		E7A30F047E86137500000000 /* AWSMobileClient.m in AmazonAws */ = {isa = PBXBuildFile; fileRef = 1DD70E29192FF96F00000000 /* AWSMobileClient.m */; };
+		E7A30F04E47EED2000000000 /* UserIdentity.storyboard in UserIdentity */ = {isa = PBXBuildFile; fileRef = 1DD70E2915433B1100000000 /* UserIdentity.storyboard */; };
+		E7A30F042D92AB0A00000000 /* Bots.storyboard in Bots */ = {isa = PBXBuildFile; fileRef = 1DD70E2939495E1E00000000 /* Bots.storyboard */; };
+		E7A30F04C8AF552D00000000 /* BotVoiceChat.storyboard in Bots */ = {isa = PBXBuildFile; fileRef = 1DD70E295836FF5C00000000 /* BotVoiceChat.storyboard */; };
+		E7A30F0494101D8200000001 /* AWSCore.framework in  */ = {isa = PBXBuildFile; fileRef = 1DD70E2988448FFB00000000 /* AWSCore.framework */; };
+		E7A30F0494101D8200000000 /* AWSCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD70E2988448FFB00000000 /* AWSCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy,  ); };};
+		E7A30F04A5F6BBF100000000 /* AWSMobileHubHelper.framework in  */ = {isa = PBXBuildFile; fileRef = 1DD70E291916FE7C00000000 /* AWSMobileHubHelper.framework */; };
+		E7A30F04E11C6FBD00000000 /* MainViewController.m in App */ = {isa = PBXBuildFile; fileRef = 1DD70E2973FB098B00000000 /* MainViewController.m */; };
+		E7A30F045EDB838700000001 /* AWSLex.framework in  */ = {isa = PBXBuildFile; fileRef = 1DD70E298083956D00000000 /* AWSLex.framework */; };
+		E7A30F045EDB838700000000 /* AWSLex.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD70E298083956D00000000 /* AWSLex.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy,  ); };};
+		E7A30F04FDD42CEC00000000 /* main.m in SupportingFiles */ = {isa = PBXBuildFile; fileRef = 1DD70E298656537C00000000 /* main.m */; };
+		E7A30F04A9530A6800000000 /* AWSConfiguration.m in AmazonAws */ = {isa = PBXBuildFile; fileRef = 1DD70E2973DAA4E500000000 /* AWSConfiguration.m */; };
+		E7A30F04C926395D00000000 /* UserIdentityViewController.m in UserIdentity */ = {isa = PBXBuildFile; fileRef = 1DD70E2932E27DA700000000 /* UserIdentityViewController.m */; };
+		E7A30F0447A9B3E500000000 /* Main.storyboard in App */ = {isa = PBXBuildFile; fileRef = 1DD70E295E73D0AD00000000 /* Main.storyboard */; };
+		E7A30F04ACDD23C200000000 /* UIKit.framework in  */ = {isa = PBXBuildFile; fileRef = 1DD70E29EF013EA100000000 /* UIKit.framework */; };
+		E7A30F04237641BA00000000 /* SystemConfiguration.framework in  */ = {isa = PBXBuildFile; fileRef = 1DD70E2985E9FF2700000000 /* SystemConfiguration.framework */; };
+		E7A30F044C38A29E00000000 /* Security.framework in  */ = {isa = PBXBuildFile; fileRef = 1DD70E299A52F1A100000000 /* Security.framework */; };
+		E7A30F040F9B7F9A00000000 /* CFNetwork.framework in  */ = {isa = PBXBuildFile; fileRef = 1DD70E29DE91F61F00000000 /* CFNetwork.framework */; };
+		E7A30F0444EB5B2C00000000 /* libz.tbd in  */ = {isa = PBXBuildFile; fileRef = 1DD70E296029031A00000000 /* libz.tbd */; };
+		E7A30F04A5995C1500000000 /* libsqlite3.tbd in  */ = {isa = PBXBuildFile; fileRef = 1DD70E29A5E8341000000000 /* libsqlite3.tbd */; };
+		E7A30F046DA56F7500000000 /* Foundation.framework in  */ = {isa = PBXBuildFile; fileRef = 1DD70E29A4A6A62B00000000 /* Foundation.framework */; };
+		E7A30F04D1ADF31100000000 /* MediaPlayer.framework in  */ = {isa = PBXBuildFile; fileRef = 1DD70E297E4022CB00000000 /* MediaPlayer.framework */; };
+		E7A30F04450FB2A900000000 /* AVFoundation.framework in  */ = {isa = PBXBuildFile; fileRef = 1DD70E290AF8845100000000 /* AVFoundation.framework */; };
+		E7A30F04C1E89CC500000000 /* AVKit.framework in  */ = {isa = PBXBuildFile; fileRef = 1DD70E291DE8FFD300000000 /* AVKit.framework */; };
+		E7A30F04B489E48200000000 /* SafariServices.framework in  */ = {isa = PBXBuildFile; fileRef = 1DD70E29A326AF0500000000 /* SafariServices.framework */; };
+		E7A30F0465862A5100000000 /* CoreGraphics.framework in  */ = {isa = PBXBuildFile; fileRef = 1DD70E29283C8FAD00000000 /* CoreGraphics.framework */; };
+		E7A30F042A6C542E00000000 /* QuartzCore.framework in  */ = {isa = PBXBuildFile; fileRef = 1DD70E297D5EB50D00000000 /* QuartzCore.framework */; };
+		E7A30F04409B27B300000000 /* CoreLocation.framework in  */ = {isa = PBXBuildFile; fileRef = 1DD70E2970C7F47900000000 /* CoreLocation.framework */; };
+		E7A30F048AC3BC1000000000 /* MapKit.framework in  */ = {isa = PBXBuildFile; fileRef = 1DD70E291D86DE0D00000000 /* MapKit.framework */; };
+		E7A30F04258CCE1400000000 /* MobileCoreServices.framework in  */ = {isa = PBXBuildFile; fileRef = 1DD70E295D8B3D9300000000 /* MobileCoreServices.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FAF5FAC90000000000000000 /* Embed frameworks */  = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E7A30F043BAD23D900000000 /* JSQMessagesViewController.framework in Embed frameworks */,
+				E7A30F0494101D8200000000 /* AWSCore.framework in Embed frameworks */,
+				E7A30F045EDB838700000000 /* AWSLex.framework in Embed frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing=0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1DD70E2983CFBAD000000000 /* MySampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; name = "MySampleApp.app"; path = "MySampleApp.app"; sourceTree ="<group>"; };
+		1DD70E297F6E117100000000 /* DemoFeature.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "DemoFeature.h"; path = "MySampleApp/Demo/DemoFeature.h"; sourceTree =SOURCE_ROOT; };
+		1DD70E29C511D63600000000 /* BotVoiceChatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "BotVoiceChatViewController.h"; path = "MySampleApp/Demo/Bots/BotVoiceChatViewController.h"; sourceTree =SOURCE_ROOT; };
+		1DD70E295A0D23A800000000 /* BotsLandingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "BotsLandingViewController.h"; path = "MySampleApp/Demo/Bots/BotsLandingViewController.h"; sourceTree =SOURCE_ROOT; };
+		1DD70E29FE3C735500000000 /* MySampleApp.entitlements */ = {isa = PBXFileReference; name = "MySampleApp.entitlements"; path = "MySampleApp/MySampleApp.entitlements"; sourceTree =SOURCE_ROOT; };
+		1DD70E29E8DE503600000000 /* BotTextChatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "BotTextChatViewController.h"; path = "MySampleApp/Demo/Bots/BotTextChatViewController.h"; sourceTree =SOURCE_ROOT; };
+		1DD70E296D965B9800000000 /* BotOperationsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "BotOperationsViewController.h"; path = "MySampleApp/Demo/Bots/BotOperationsViewController.h"; sourceTree =SOURCE_ROOT; };
+		1DD70E29BB7AE19900000000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate.h"; path = "MySampleApp/App/AppDelegate.h"; sourceTree =SOURCE_ROOT; };
+		1DD70E296F158C2200000000 /* Bot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Bot.h"; path = "MySampleApp/Demo/Bots/Bot.h"; sourceTree =SOURCE_ROOT; };
+		1DD70E29189D1F6900000000 /* AWSMobileClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AWSMobileClient.h"; path = "MySampleApp/AmazonAws/AWSMobileClient.h"; sourceTree =SOURCE_ROOT; };
+		1DD70E2973682F8500000000 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MainViewController.h"; path = "MySampleApp/App/MainViewController.h"; sourceTree =SOURCE_ROOT; };
+		1DD70E297347CADF00000000 /* AWSConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AWSConfiguration.h"; path = "MySampleApp/AmazonAws/AWSConfiguration.h"; sourceTree =SOURCE_ROOT; };
+		1DD70E29C6D215F000000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info.plist"; path = "MySampleApp/App/SupportingFiles/Info.plist"; sourceTree =SOURCE_ROOT; };
+		1DD70E29324FA3A100000000 /* UserIdentityViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UserIdentityViewController.h"; path = "MySampleApp/Demo/UserIdentity/UserIdentityViewController.h"; sourceTree =SOURCE_ROOT; };
+		1DD70E29CF04832400000000 /* BotsFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "BotsFactory.h"; path = "MySampleApp/Demo/Bots/BotsFactory.h"; sourceTree =SOURCE_ROOT; };
+		1DD70E29EF013EA100000000 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "UIKit.framework"; path = "System/Library/Frameworks/UIKit.framework"; sourceTree =SDKROOT; };
+		1DD70E2985E9FF2700000000 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "SystemConfiguration.framework"; path = "System/Library/Frameworks/SystemConfiguration.framework"; sourceTree =SDKROOT; };
+		1DD70E299A52F1A100000000 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Security.framework"; path = "System/Library/Frameworks/Security.framework"; sourceTree =SDKROOT; };
+		1DD70E29DE91F61F00000000 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CFNetwork.framework"; path = "System/Library/Frameworks/CFNetwork.framework"; sourceTree =SDKROOT; };
+		1DD70E296029031A00000000 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libz.tbd"; path = "usr/lib/libz.tbd"; sourceTree =SDKROOT; };
+		1DD70E29A5E8341000000000 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libsqlite3.tbd"; path = "usr/lib/libsqlite3.tbd"; sourceTree =SDKROOT; };
+		1DD70E29A4A6A62B00000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree =SDKROOT; };
+		1DD70E297E4022CB00000000 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "MediaPlayer.framework"; path = "System/Library/Frameworks/MediaPlayer.framework"; sourceTree =SDKROOT; };
+		1DD70E290AF8845100000000 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "AVFoundation.framework"; path = "System/Library/Frameworks/AVFoundation.framework"; sourceTree =SDKROOT; };
+		1DD70E291DE8FFD300000000 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "AVKit.framework"; path = "System/Library/Frameworks/AVKit.framework"; sourceTree =SDKROOT; };
+		1DD70E29A326AF0500000000 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "SafariServices.framework"; path = "System/Library/Frameworks/SafariServices.framework"; sourceTree =SDKROOT; };
+		1DD70E29283C8FAD00000000 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreGraphics.framework"; path = "System/Library/Frameworks/CoreGraphics.framework"; sourceTree =SDKROOT; };
+		1DD70E297D5EB50D00000000 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "QuartzCore.framework"; path = "System/Library/Frameworks/QuartzCore.framework"; sourceTree =SDKROOT; };
+		1DD70E2970C7F47900000000 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreLocation.framework"; path = "System/Library/Frameworks/CoreLocation.framework"; sourceTree =SDKROOT; };
+		1DD70E291D86DE0D00000000 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "MapKit.framework"; path = "System/Library/Frameworks/MapKit.framework"; sourceTree =SDKROOT; };
+		1DD70E295D8B3D9300000000 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "MobileCoreServices.framework"; path = "System/Library/Frameworks/MobileCoreServices.framework"; sourceTree =SDKROOT; };
+		1DD70E29CF975D2A00000000 /* BotsFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "BotsFactory.m"; path = "MySampleApp/Demo/Bots/BotsFactory.m"; sourceTree =SOURCE_ROOT; };
+		1DD70E29E9712A3C00000000 /* BotTextChatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "BotTextChatViewController.m"; path = "MySampleApp/Demo/Bots/BotTextChatViewController.m"; sourceTree =SOURCE_ROOT; };
+		1DD70E29BC0DBB9F00000000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate.m"; path = "MySampleApp/App/AppDelegate.m"; sourceTree =SOURCE_ROOT; };
+		1DD70E2907496F8100000000 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "Launch Screen.storyboard"; path = "MySampleApp/App/Launch Screen.storyboard"; sourceTree =SOURCE_ROOT; };
+		1DD70E298000EB7700000000 /* DemoFeature.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "DemoFeature.m"; path = "MySampleApp/Demo/DemoFeature.m"; sourceTree =SOURCE_ROOT; };
+		1DD70E29C5A4B03C00000000 /* BotVoiceChatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "BotVoiceChatViewController.m"; path = "MySampleApp/Demo/Bots/BotVoiceChatViewController.m"; sourceTree =SOURCE_ROOT; };
+		1DD70E296E29359E00000000 /* BotOperationsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "BotOperationsViewController.m"; path = "MySampleApp/Demo/Bots/BotOperationsViewController.m"; sourceTree =SOURCE_ROOT; };
+		1DD70E296FA8662800000000 /* Bot.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "Bot.m"; path = "MySampleApp/Demo/Bots/Bot.m"; sourceTree =SOURCE_ROOT; };
+		1DD70E29D106455C00000000 /* BotTextChat.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "BotTextChat.storyboard"; path = "MySampleApp/Demo/Bots/BotTextChat.storyboard"; sourceTree =SOURCE_ROOT; };
+		1DD70E296A7C129B00000000 /* JSQMessagesViewController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "JSQMessagesViewController.framework"; path = "MySampleApp/Sdk/UILibrary/JSQMessagesViewController.framework"; sourceTree ="<group>"; };
+		1DD70E2983A8E61100000000 /* Images.xcassets */ = {isa = PBXFileReference; name = "Images.xcassets"; path = "MySampleApp/App/Images.xcassets"; sourceTree =SOURCE_ROOT; };
+		1DD70E295A9FFDAE00000000 /* BotsLandingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "BotsLandingViewController.m"; path = "MySampleApp/Demo/Bots/BotsLandingViewController.m"; sourceTree =SOURCE_ROOT; };
+		1DD70E29192FF96F00000000 /* AWSMobileClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AWSMobileClient.m"; path = "MySampleApp/AmazonAws/AWSMobileClient.m"; sourceTree =SOURCE_ROOT; };
+		1DD70E2915433B1100000000 /* UserIdentity.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "UserIdentity.storyboard"; path = "MySampleApp/Demo/UserIdentity/UserIdentity.storyboard"; sourceTree =SOURCE_ROOT; };
+		1DD70E2939495E1E00000000 /* Bots.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "Bots.storyboard"; path = "MySampleApp/Demo/Bots/Bots.storyboard"; sourceTree =SOURCE_ROOT; };
+		1DD70E295836FF5C00000000 /* BotVoiceChat.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "BotVoiceChat.storyboard"; path = "MySampleApp/Demo/Bots/BotVoiceChat.storyboard"; sourceTree =SOURCE_ROOT; };
+		1DD70E2988448FFB00000000 /* AWSCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "AWSCore.framework"; path = "MySampleApp/Sdk/Aws/AWSCore.framework"; sourceTree ="<group>"; };
+		1DD70E291916FE7C00000000 /* AWSMobileHubHelper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "AWSMobileHubHelper.framework"; path = "MySampleApp/AmazonAws/AWSMobileHubHelper.framework"; sourceTree ="<group>"; };
+		1DD70E2973FB098B00000000 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "MainViewController.m"; path = "MySampleApp/App/MainViewController.m"; sourceTree =SOURCE_ROOT; };
+		1DD70E298083956D00000000 /* AWSLex.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "AWSLex.framework"; path = "MySampleApp/Sdk/Aws/AWSLex.framework"; sourceTree ="<group>"; };
+		1DD70E298656537C00000000 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "main.m"; path = "MySampleApp/App/SupportingFiles/main.m"; sourceTree =SOURCE_ROOT; };
+		1DD70E2973DAA4E500000000 /* AWSConfiguration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AWSConfiguration.m"; path = "MySampleApp/AmazonAws/AWSConfiguration.m"; sourceTree =SOURCE_ROOT; };
+		1DD70E2932E27DA700000000 /* UserIdentityViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "UserIdentityViewController.m"; path = "MySampleApp/Demo/UserIdentity/UserIdentityViewController.m"; sourceTree =SOURCE_ROOT; };
+		1DD70E295E73D0AD00000000 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "Main.storyboard"; path = "MySampleApp/App/Main.storyboard"; sourceTree =SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F426D880000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7A30F043BAD23D900000001 /* JSQMessagesViewController.framework in Frameworks */,
+				E7A30F0494101D8200000001 /* AWSCore.framework in Frameworks */,
+				E7A30F04A5F6BBF100000000 /* AWSMobileHubHelper.framework in Frameworks */,
+				E7A30F045EDB838700000001 /* AWSLex.framework in Frameworks */,
+				E7A30F04ACDD23C200000000 /* UIKit.framework in Frameworks */,
+				E7A30F04237641BA00000000 /* SystemConfiguration.framework in Frameworks */,
+				E7A30F044C38A29E00000000 /* Security.framework in Frameworks */,
+				E7A30F040F9B7F9A00000000 /* CFNetwork.framework in Frameworks */,
+				E7A30F0444EB5B2C00000000 /* libz.tbd in Frameworks */,
+				E7A30F04A5995C1500000000 /* libsqlite3.tbd in Frameworks */,
+				E7A30F046DA56F7500000000 /* Foundation.framework in Frameworks */,
+				E7A30F04D1ADF31100000000 /* MediaPlayer.framework in Frameworks */,
+				E7A30F04450FB2A900000000 /* AVFoundation.framework in Frameworks */,
+				E7A30F04C1E89CC500000000 /* AVKit.framework in Frameworks */,
+				E7A30F04B489E48200000000 /* SafariServices.framework in Frameworks */,
+				E7A30F0465862A5100000000 /* CoreGraphics.framework in Frameworks */,
+				E7A30F042A6C542E00000000 /* QuartzCore.framework in Frameworks */,
+				E7A30F04409B27B300000000 /* CoreLocation.framework in Frameworks */,
+				E7A30F048AC3BC1000000000 /* MapKit.framework in Frameworks */,
+				E7A30F04258CCE1400000000 /* MobileCoreServices.framework in Frameworks */,
+			);
+runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B401C979592FB05B00000000 /* MySampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				B401C9796DA5688B00000000 /* AmazonAws */, 
+				B401C97947E489BB00000000 /* App */, 
+				B401C979C68DD52F00000000 /* Demo */, 
+				1DD70E29FE3C735500000000 /* MySampleApp.entitlements */, 
+			);
+			name = "MySampleApp";
+			path = "mysampleapp";
+			sourceTree = "<group>";
+		};
+		B401C97948E4903D00000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DD70E2983CFBAD000000000 /* MySampleApp.app */, 
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		B401C97969A8DCBF00000000 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				1DD70E29C6D215F000000000 /* Info.plist */, 
+				1DD70E298656537C00000000 /* main.m */, 
+			);
+			name = "SupportingFiles";
+			path = "mysampleapp/app/supportingfiles";
+			sourceTree = "<group>";
+		};
+		B401C97947E489BB00000000 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				1DD70E29BB7AE19900000000 /* AppDelegate.h */, 
+				1DD70E29BC0DBB9F00000000 /* AppDelegate.m */, 
+				1DD70E2983A8E61100000000 /* Images.xcassets */, 
+				1DD70E2907496F8100000000 /* Launch Screen.storyboard */, 
+				1DD70E295E73D0AD00000000 /* Main.storyboard */, 
+				1DD70E2973682F8500000000 /* MainViewController.h */, 
+				1DD70E2973FB098B00000000 /* MainViewController.m */, 
+				B401C97969A8DCBF00000000 /* SupportingFiles */, 
+			);
+			name = "App";
+			path = "mysampleapp/app";
+			sourceTree = "<group>";
+		};
+		B401C979579E5FB700000000 /* mainGroup */ = {
+			isa = PBXGroup;
+			children = (
+				B401C979592FB05B00000000 /* MySampleApp */, 
+				B401C97948E4903D00000000 /* Products */, 
+				B401C97948CBBDAA00000000 /* Frameworks */, 
+			);
+			name = "mainGroup";
+			sourceTree = "<group>";
+		};
+		B401C97948CBBDAA00000000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DD70E290AF8845100000000 /* AVFoundation.framework */, 
+				1DD70E291DE8FFD300000000 /* AVKit.framework */, 
+				1DD70E2988448FFB00000000 /* AWSCore.framework */, 
+				1DD70E298083956D00000000 /* AWSLex.framework */, 
+				1DD70E291916FE7C00000000 /* AWSMobileHubHelper.framework */, 
+				1DD70E29DE91F61F00000000 /* CFNetwork.framework */, 
+				1DD70E29283C8FAD00000000 /* CoreGraphics.framework */, 
+				1DD70E2970C7F47900000000 /* CoreLocation.framework */, 
+				1DD70E29A4A6A62B00000000 /* Foundation.framework */, 
+				1DD70E296A7C129B00000000 /* JSQMessagesViewController.framework */, 
+				1DD70E291D86DE0D00000000 /* MapKit.framework */, 
+				1DD70E297E4022CB00000000 /* MediaPlayer.framework */, 
+				1DD70E295D8B3D9300000000 /* MobileCoreServices.framework */, 
+				1DD70E297D5EB50D00000000 /* QuartzCore.framework */, 
+				1DD70E29A326AF0500000000 /* SafariServices.framework */, 
+				1DD70E299A52F1A100000000 /* Security.framework */, 
+				1DD70E2985E9FF2700000000 /* SystemConfiguration.framework */, 
+				1DD70E29EF013EA100000000 /* UIKit.framework */, 
+				1DD70E29A5E8341000000000 /* libsqlite3.tbd */, 
+				1DD70E296029031A00000000 /* libz.tbd */, 
+			);
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		B401C979BE573C7900000000 /* Bots */ = {
+			isa = PBXGroup;
+			children = (
+				1DD70E296F158C2200000000 /* Bot.h */, 
+				1DD70E296FA8662800000000 /* Bot.m */, 
+				1DD70E296D965B9800000000 /* BotOperationsViewController.h */, 
+				1DD70E296E29359E00000000 /* BotOperationsViewController.m */, 
+				1DD70E29D106455C00000000 /* BotTextChat.storyboard */, 
+				1DD70E29E8DE503600000000 /* BotTextChatViewController.h */, 
+				1DD70E29E9712A3C00000000 /* BotTextChatViewController.m */, 
+				1DD70E295836FF5C00000000 /* BotVoiceChat.storyboard */, 
+				1DD70E29C511D63600000000 /* BotVoiceChatViewController.h */, 
+				1DD70E29C5A4B03C00000000 /* BotVoiceChatViewController.m */, 
+				1DD70E2939495E1E00000000 /* Bots.storyboard */, 
+				1DD70E29CF04832400000000 /* BotsFactory.h */, 
+				1DD70E29CF975D2A00000000 /* BotsFactory.m */, 
+				1DD70E295A0D23A800000000 /* BotsLandingViewController.h */, 
+				1DD70E295A9FFDAE00000000 /* BotsLandingViewController.m */, 
+			);
+			name = "Bots";
+			path = "mysampleapp/demo/bots";
+			sourceTree = "<group>";
+		};
+		B401C979E70B359700000000 /* UserIdentity */ = {
+			isa = PBXGroup;
+			children = (
+				1DD70E2915433B1100000000 /* UserIdentity.storyboard */, 
+				1DD70E29324FA3A100000000 /* UserIdentityViewController.h */, 
+				1DD70E2932E27DA700000000 /* UserIdentityViewController.m */, 
+			);
+			name = "UserIdentity";
+			path = "mysampleapp/demo/useridentity";
+			sourceTree = "<group>";
+		};
+		B401C9796DA5688B00000000 /* AmazonAws */ = {
+			isa = PBXGroup;
+			children = (
+				1DD70E297347CADF00000000 /* AWSConfiguration.h */, 
+				1DD70E2973DAA4E500000000 /* AWSConfiguration.m */, 
+				1DD70E29189D1F6900000000 /* AWSMobileClient.h */, 
+				1DD70E29192FF96F00000000 /* AWSMobileClient.m */, 
+			);
+			name = "AmazonAws";
+			path = "mysampleapp/amazonaws";
+			sourceTree = "<group>";
+		};
+		B401C979C68DD52F00000000 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				B401C979BE573C7900000000 /* Bots */, 
+				1DD70E297F6E117100000000 /* DemoFeature.h */, 
+				1DD70E298000EB7700000000 /* DemoFeature.m */, 
+				B401C979E70B359700000000 /* UserIdentity */, 
+			);
+			name = "Demo";
+			path = "mysampleapp/demo";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E66DC04E0000000000000000 /* MySampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 218C37090000000000000001 /* Build configuration list for PBXNativeTarget MySampleApp */;
+			buildPhases = (
+				E1F174220000000000000001 /* PBXShellScriptBuildPhase */,
+				1870857F0000000000000000 /* PBXSourcesBuildPhase */,
+				4F426D880000000000000000 /* PBXFrameworksBuildPhase */,
+				8A032D2C0000000000000000 /* PBXResourcesBuildPhase */,
+				FAF5FAC90000000000000000 /* PBXCopyFilesBuildPhase */,
+				E1F174220000000000000000 /* PBXShellScriptBuildPhase */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MySampleApp;
+			productName = MySampleApp;
+			productReference = 1DD70E2983CFBAD000000000 /* MySampleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+	    96C847930000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				TargetAttributes = {
+					6B443C481B5DB06200406B17 = {
+						CreatedOnToolsVersion = 6.4;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							//@aws_begin(push-apns | push-dartboard)
+							com.apple.Push = {
+								enabled = 1; 
+							};
+							//@aws_end
+							com.apple.SafariKeychain = {
+								enabled = 1;
+							};
+						};
+					};
+				};	
+			};
+			buildConfigurationList = 218C37090000000000000000 /* Build configuration list for PBXProject "MySampleApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B401C979579E5FB700000000;
+			productRefGroup = B401C97948E4903D00000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E66DC04E0000000000000000 /* MySampleApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A032D2C0000000000000000 /* Resources */ = { 
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7A30F045866123300000000 /* Launch Screen.storyboard */,
+				E7A30F04F0C3D71B00000000 /* BotTextChat.storyboard */,
+				E7A30F0439FFFED600000000 /* Images.xcassets */,
+				E7A30F04E47EED2000000000 /* UserIdentity.storyboard */,
+				E7A30F042D92AB0A00000000 /* Bots.storyboard */,
+				E7A30F04C8AF552D00000000 /* BotVoiceChat.storyboard */,
+				E7A30F0447A9B3E500000000 /* Main.storyboard */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E1F174220000000000000000 /* ShellScript */ = { 
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths =(
+			);
+			outputPaths =(
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework/strip-frameworks.sh\"";
+		};
+		E1F174220000000000000001 /* ShellScript */ = { 
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths =(
+			);
+			outputPaths =(
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "FILE=${SRCROOT}/MySampleApp/Sdk/CheckXcodeVersion.sh\nif [ -e $FILE ]; then\n    $FILE\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1870857F0000000000000000 /* Sources */ = { 
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7A30F0401425B7000000000 /* BotsFactory.m */,
+				E7A30F043A5D0B7000000000 /* BotTextChatViewController.m */,
+				E7A30F04F8041E6800000000 /* AppDelegate.m */,
+				E7A30F041D3ECB7300000000 /* DemoFeature.m */,
+				E7A30F04221C978600000000 /* BotVoiceChatViewController.m */,
+				E7A30F04B7D01EC900000000 /* BotOperationsViewController.m */,
+				E7A30F04D7246B5C00000000 /* Bot.m */,
+				E7A30F0492E0803000000000 /* BotsLandingViewController.m */,
+				E7A30F047E86137500000000 /* AWSMobileClient.m */,
+				E7A30F04E11C6FBD00000000 /* MainViewController.m */,
+				E7A30F04FDD42CEC00000000 /* main.m */,
+				E7A30F04A9530A6800000000 /* AWSConfiguration.m */,
+				E7A30F04C926395D00000000 /* UserIdentityViewController.m */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4952437346F3E10800000000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49524373386D956C00000000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4952437346F3E10800000001 /* Debug */ = {
+			isa =XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MySampleApp/MySampleApp.entitlements;
+				CODE_SIGN_IDENTITY = "iphone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/MySampleApp/Sdk/**",
+					"$(PROJECT_DIR)/MySampleApp/Sdk/Aws",
+					"$(PROJECT_DIR)/MySampleApp/AmazonAws",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/MySampleApp/App/SupportingFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amazon.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49524373386D956C00000001 /* Release */ = {
+			isa =XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MySampleApp/MySampleApp.entitlements;
+				CODE_SIGN_IDENTITY = "iphone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/MySampleApp/Sdk/**",
+					"$(PROJECT_DIR)/MySampleApp/Sdk/Aws",
+					"$(PROJECT_DIR)/MySampleApp/AmazonAws",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/MySampleApp/App/SupportingFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amazon.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+		
+/* Begin XCConfigurationList section */
+		218C37090000000000000000 /* Build configuration list for PBXProject "MySampleApp " */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4952437346F3E10800000000 /* Debug */,
+				49524373386D956C00000000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		218C37090000000000000001 /* Build configuration list for PBXNativeTarget "MySampleApp " */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4952437346F3E10800000001 /* Debug */,
+				49524373386D956C00000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96C847930000000000000000 /* Project object */;
+}
